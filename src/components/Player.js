@@ -11,7 +11,7 @@ function Player(props){
   useEffect(()=>{
     if(isPlaying){
       audioEle.current.play();
-      audioEle.current.volume = 0.02;
+      audioEle.current.volume = 0.05;
     } else {
       audioEle.current.pause();
     }
@@ -40,6 +40,7 @@ function Player(props){
   }
 
   return (
+    <>
     <div className="player">
       <div className="screen">
       <audio loop id="myaudio" volume="0.1" src={props.songs[props.currentSongIndex].src} ref={audioEle}></audio>
@@ -50,8 +51,12 @@ function Player(props){
         SkipSong={SkipSong}
       />
       <p>Next: {props.songs[props.nextSongIndex].title} - {props.songs[props.nextSongIndex].artist}</p>
+      <p className="ftr-mobile">&copy; 2022 Nam Nguyen Dinh</p>
       </div>
     </div>
+    <div className="ftr">
+    &copy; 2022 Nam Nguyen Dinh</div>
+    </>
   )
 }
 
