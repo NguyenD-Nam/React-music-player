@@ -103,7 +103,7 @@ img {
 }
 
 .player-controls .play-btn {
-    display: flex;
+    display: block;
     margin: 0 30px;
     padding: 20px;
     border-radius: 50%;
@@ -114,6 +114,7 @@ img {
     color: #dfdfdf;
     font-size: 24px;
     cursor: pointer;
+    width: 72px;
 }
 
 .player-controls .skip-btn {
@@ -156,6 +157,13 @@ img {
     border-radius: 0;
     padding: 30px;
   }
+  .player-controls .play-btn {
+    cursor: default;
+}
+
+.player-controls .skip-btn {
+    cursor: default;
+}
   .ftr{
     display: none;
   }
