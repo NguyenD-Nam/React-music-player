@@ -12,6 +12,24 @@ function App() {
       src: "./music/1.mp3"
     },
     {
+      title: "Dramarama",
+      artist: "Monsta X",
+      img_src: "./images/4.jpg",
+      src: "./music/4.mp3"
+    },
+    {
+      title: "Not By The Moon",
+      artist: "GOT7",
+      img_src: "./images/12.jpg",
+      src: "./music/12.mp3"
+    },
+    {
+      title: "Follow",
+      artist: "Monsta X",
+      img_src: "./images/11.jpg",
+      src: "./music/11.mp3"
+    },
+    {
       title: "MIROH",
       artist: "Stray kids",
       img_src: "./images/2.jpg",
@@ -24,16 +42,22 @@ function App() {
       src: "./music/3.mp3"
     },
     {
-      title: "Dramarama",
-      artist: "Monsta X",
-      img_src: "./images/4.jpg",
-      src: "./music/4.mp3"
-    },
-    {
       title: "Back Door",
       artist: "Stray kids",
       img_src: "./images/5.jpg",
       src: "./music/5.mp3"
+    },
+    {
+      title: "I Wait",
+      artist: "DAY6",
+      img_src: "./images/9.jpg",
+      src: "./music/9.mp3"
+    },
+    {
+      title: "Letting Go",
+      artist: "DAY6",
+      img_src: "./images/13.jpg",
+      src: "./music/13.mp3"
     },
     {
       title: "Shoot Me",
@@ -42,22 +66,16 @@ function App() {
       src: "./music/6.mp3"
     },
     {
-      title: "You can't hold my heart",
-      artist: "Monsta X",
-      img_src: "./images/7.jpg",
-      src: "./music/7.mp3"
-    },
-    {
       title: "Thunderous",
       artist: "Stray kids",
       img_src: "./images/8.jpg",
       src: "./music/8.mp3"
     },
     {
-      title: "I Wait",
-      artist: "DAY6",
-      img_src: "./images/9.jpg",
-      src: "./music/9.mp3"
+      title: "You can't hold my heart",
+      artist: "Monsta X",
+      img_src: "./images/7.jpg",
+      src: "./music/7.mp3"
     }
   ]);
 
