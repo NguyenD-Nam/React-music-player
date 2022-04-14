@@ -50,6 +50,7 @@ body {
     position: relative;
     width: fit-content;
     margin: 0 auto;
+    height: 326px;
 }
 
 img {
@@ -98,8 +99,8 @@ img {
 
 @keyframes click{
   0%{box-shadow: 0 0 0px 0px #ffffff00;}
-  25%{box-shadow: 0 0 0px 17px #aaa8;}
-  100%{box-shadow: 0 0 0px 10px #ffffff00;}
+  25%{box-shadow: 0 0 0px 17px #aaa3;}
+  100%{box-shadow: 0 0 0px 17px #ffffff00;}
 }
 
 .player-controls .play-btn {
@@ -133,7 +134,7 @@ img {
     left: 0;
     width: 100vw;
     z-index: -1;
-    padding: 20px 80px;
+    padding: 20px 70px;
     color: #fff;
     box-sizing: border-box;
 }
@@ -142,33 +143,36 @@ img {
 }
 
 @media(max-width: 700px){
-  body{
-    padding: 0;
-  }
-  .player{
-    width: 100vw;
-    height: 100%;
-    box-sizing: border-box;
-    border-radius: 0;
-    box-shadow: none;
-    padding: 0px;
-  }
-  .player .screen{
-    border-radius: 0;
-    padding: 30px;
-  }
-  .player-controls .play-btn {
-    cursor: default;
-}
+    body{
+        padding: 0;
+    }
+    .player{
+        width: 100vw;
+        height: 100%;
+        box-sizing: border-box;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0px;
+    }
+    .player .screen{
+        border-radius: 0;
+        padding: 30px;
+    }
+    .player-details .details-img {
+        height: unset;
+    }
+    .player-controls .play-btn {
+        cursor: default;
+    }
 
-.player-controls .skip-btn {
-    cursor: default;
-}
-  .ftr{
-    display: none;
-  }
-  .ftr-mobile{
-    display: block;
-    margin-top: 40px;
-  }
+    .player-controls .skip-btn {
+        cursor: default;
+    }
+    .ftr{
+        display: none;
+    }
+    .ftr-mobile{
+        display: block;
+        margin-top: 40px;
+    }
 }
