@@ -30,10 +30,22 @@ function App() {
       src: "./music/11.mp3"
     },
     {
+      title: "Love Killa",
+      artist: "Monsta X",
+      img_src: "./images/10.jpg",
+      src: "./music/10.mp3"
+    },
+    {
       title: "MIROH",
       artist: "Stray kids",
       img_src: "./images/2.jpg",
       src: "./music/2.mp3"
+    },
+    {
+      title: "Fantasia",
+      artist: "Monsta X",
+      img_src: "./images/14.jpg",
+      src: "./music/14.mp3"
     },
     {
       title: "Warning!",
