@@ -11,7 +11,7 @@ function Player(props){
   useEffect(()=>{
     if(isPlaying){
       audioEle.current.play();
-      audioEle.current.volume = 0.0575;
+      audioEle.current.volume = 0.06;
     } else {
       audioEle.current.pause();
     }
